@@ -1,0 +1,24 @@
+# Environment / secrets
+.env
+.env.*
+!env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Vercel
+.vercel
+
+# OS
+.DS_Store
+
+# Source PDFs (large, don't commit the raw book — only its built index)
+books/*.pdf
+
+# NOTE: data/book_index.pkl is intentionally NOT ignored.
+# It is the prebuilt search index the deployed app reads at startup —
+# it must be committed for Vercel deployments to have book knowledge.

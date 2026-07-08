@@ -1,0 +1,29 @@
+# =============================================================================
+# NEET Book Bot - Python Dependencies
+# =============================================================================
+
+# Core
+flask>=3.1.3
+python-dotenv>=1.0.1
+werkzeug>=3.0.0
+
+# LLM (Groq SDK)
+groq>=0.30.0
+
+# PDF reading (for ingesting the NEET book)
+pypdf>=4.3.0
+
+# Retrieval (TF-IDF search over the book's content)
+# Pinned to match the scikit-learn version data/book_index.pkl was built
+# with. A mismatched version can throw InconsistentVersionWarning and, in
+# the worst case, fail to unpickle correctly. If you rebuild the index
+# with scripts/build_index.py using a different scikit-learn, update this
+# to match whatever `pip show scikit-learn` reports afterward.
+scikit-learn==1.5.2
+numpy>=1.26.0,<2.0.0
+
+# Redis (optional conversation memory - falls back to in-memory if not set)
+redis>=5.2.0
+
+# HTTP
+requests>=2.32.0

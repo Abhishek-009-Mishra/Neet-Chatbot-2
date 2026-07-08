@@ -1,0 +1,2 @@
+Put your NEET book PDF(s) in this folder, then run:
+    python scripts/build_index.py
