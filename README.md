@@ -11,7 +11,7 @@
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
 [![Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com)
 
-**Live Demo → [https://neet-chatbot-2.vercel.app/](https://neet-chatbot-2-hbfq-flame.vercel.app/)**
+**Live Demo → [https://neet-chatbot-2.vercel.app/](https://neet-chatbot-2-ncos-psi.vercel.app/)**
 
 An AI chatbot for NEET aspirants that answers Physics, Chemistry, and Biology questions using *only* the PDF books you give it — and cites the exact book and page every answer came from.
 
