@@ -252,13 +252,9 @@ git push origin feature/your-feature
 
 ---
 
-## License
 
-MIT License — see [LICENSE](LICENSE)
 
 ---
-
-<div align="center">
 
 **Built for NEET aspirants**
 
